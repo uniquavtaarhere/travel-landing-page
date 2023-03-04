@@ -159,7 +159,7 @@ section{
 }
 .footer{
     display:flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
     background-color: #3882f6;
@@ -189,5 +189,8 @@ section h3{
 }
 li a:hover{
     color: aqua;
+}
+.footer{
+    flex:1 1 0;
 }
 
