@@ -65,13 +65,13 @@ li a{
 }
 
 .header {
-    background-color: #1f2937;
+   
     display:flex;
     flex-wrap: nowrap;
    
     background-image: url('abstract2.jpg');
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
    
 }
@@ -192,5 +192,23 @@ li a:hover{
 }
 .footer{
     flex:1 1 0;
+}
+@media only screen and (max-width:500px) {
+   .header img{
+    width:100%;
+   }
+    .header{
+    flex-wrap: wrap;
+   }
+    .hero {
+           text-align: center;
+    }
+ .hero p{
+   margin-left: 40px;
+ }
+ .footer{
+    margin:50px;
+ }
+    
 }
 
